@@ -119,13 +119,13 @@ class XMLStream {
 	 */
 	protected $default_ns;
 	/**
-	 * @var string
+	 * @var string[]
 	 */
-	protected $until = '';
+	protected $until = array();
 	/**
-	 * @var string
+	 * @var int[]
 	 */
-	protected $until_count = '';
+	protected $until_count = array();
 	/**
 	 * @var array
 	 */
