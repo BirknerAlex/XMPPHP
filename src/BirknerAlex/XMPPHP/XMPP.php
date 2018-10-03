@@ -117,6 +117,7 @@ class XMPP extends XMLStream {
 		$this->password = $password;
 		$this->resource = $resource;
 		if(!$server) $server = $host;
+		$this->server = $server;
 		$this->basejid = $this->user . '@' . $this->host;
 
 		$this->roster = new Roster();
